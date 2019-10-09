@@ -362,7 +362,7 @@ import 'vve-rjucd-iconfont/src/index.scss'
 ### CDN安装使用
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vve-rjucd-iconfont@1.0.2/dist/vve-rjucd-iconfont.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vve-rjucd-iconfont@1.1.1/dist/vve-rjucd-iconfont.css">
 ```
 
 ## 开发
