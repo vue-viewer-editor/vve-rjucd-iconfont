@@ -6,7 +6,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = (env = {}) => {
 
   const entry = {
-    'main': path.resolve(__dirname, "src/main.js"),
+    'vve-rjucd-iconfont': path.resolve(__dirname, "src/main.js"),
   }
 
   env.SINGLE_ENTRY && Object.keys(entry).map(name => {
@@ -33,7 +33,7 @@ module.exports = (env = {}) => {
       new MiniCssExtractPlugin({
         // Options similar to the same options in webpackOptions.output
         // both options are optional
-        filename: '[name].min.css',
+        filename: '[name].css',
         chunkFilename: '[id].css'
       }),
       ...multiHtmlPlugins,
